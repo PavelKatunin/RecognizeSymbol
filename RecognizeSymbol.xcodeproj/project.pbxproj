@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		76A5169B1FD1804100A39877 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A5169A1FD1804100A39877 /* AppDelegate.m */; };
+		76A5169E1FD1804100A39877 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A5169D1FD1804100A39877 /* ViewController.m */; };
+		76A516A11FD1804100A39877 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A5169F1FD1804100A39877 /* Main.storyboard */; };
+		76A516A31FD1804100A39877 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76A516A21FD1804100A39877 /* Assets.xcassets */; };
+		76A516A61FD1804100A39877 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76A516A41FD1804100A39877 /* LaunchScreen.storyboard */; };
+		76A516A91FD1804100A39877 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A516A81FD1804100A39877 /* main.m */; };
+		76A516B31FD1804100A39877 /* RecognizeSymbolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A516B21FD1804100A39877 /* RecognizeSymbolTests.m */; };
+		76A516CC1FD1809B00A39877 /* GapInvariant.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A516C21FD1809A00A39877 /* GapInvariant.m */; };
+		76A516CD1FD1809B00A39877 /* LineByLineInvariant.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A516C41FD1809B00A39877 /* LineByLineInvariant.m */; };
+		76A516CE1FD1809B00A39877 /* NSString+LineReading.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A516C61FD1809B00A39877 /* NSString+LineReading.m */; };
+		76A516CF1FD1809B00A39877 /* CompositeSymbolRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A516C71FD1809B00A39877 /* CompositeSymbolRecognizer.m */; };
+		76A516D01FD1809B00A39877 /* NSArray+Signature.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A516C81FD1809B00A39877 /* NSArray+Signature.m */; };
+		76A516D21FD181D100A39877 /* testb.txt in Resources */ = {isa = PBXBuildFile; fileRef = 76A516D11FD181D100A39877 /* testb.txt */; };
+		76DAF8B61FD186B4004BDB73 /* testa.txt in Resources */ = {isa = PBXBuildFile; fileRef = 76DAF8B51FD186B4004BDB73 /* testa.txt */; };
+		76DAF8B81FD1875E004BDB73 /* testc2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 76DAF8B71FD1875E004BDB73 /* testc2.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76A516AF1FD1804100A39877 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76A5168E1FD1804100A39877 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76A516951FD1804100A39877;
+			remoteInfo = RecognizeSymbol;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		76A516961FD1804100A39877 /* RecognizeSymbol.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecognizeSymbol.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A516991FD1804100A39877 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76A5169A1FD1804100A39877 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76A5169C1FD1804100A39877 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76A5169D1FD1804100A39877 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76A516A01FD1804100A39877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76A516A21FD1804100A39877 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76A516A51FD1804100A39877 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76A516A71FD1804100A39877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76A516A81FD1804100A39877 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76A516AE1FD1804100A39877 /* RecognizeSymbolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecognizeSymbolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76A516B21FD1804100A39877 /* RecognizeSymbolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecognizeSymbolTests.m; sourceTree = "<group>"; };
+		76A516B41FD1804100A39877 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76A516C01FD1809A00A39877 /* NSArray+Signature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSArray+Signature.h"; path = "RecognizeSymbol/SymbolsRecognizer/NSArray+Signature.h"; sourceTree = SOURCE_ROOT; };
+		76A516C11FD1809A00A39877 /* CompositeSymbolRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CompositeSymbolRecognizer.h; path = RecognizeSymbol/SymbolsRecognizer/CompositeSymbolRecognizer.h; sourceTree = SOURCE_ROOT; };
+		76A516C21FD1809A00A39877 /* GapInvariant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GapInvariant.m; path = RecognizeSymbol/SymbolsRecognizer/GapInvariant.m; sourceTree = SOURCE_ROOT; };
+		76A516C31FD1809A00A39877 /* Invariant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Invariant.h; path = RecognizeSymbol/SymbolsRecognizer/Invariant.h; sourceTree = SOURCE_ROOT; };
+		76A516C41FD1809B00A39877 /* LineByLineInvariant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LineByLineInvariant.m; path = RecognizeSymbol/SymbolsRecognizer/LineByLineInvariant.m; sourceTree = SOURCE_ROOT; };
+		76A516C51FD1809B00A39877 /* SymbolRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SymbolRecognizer.h; path = RecognizeSymbol/SymbolsRecognizer/SymbolRecognizer.h; sourceTree = SOURCE_ROOT; };
+		76A516C61FD1809B00A39877 /* NSString+LineReading.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+LineReading.m"; path = "RecognizeSymbol/SymbolsRecognizer/NSString+LineReading.m"; sourceTree = SOURCE_ROOT; };
+		76A516C71FD1809B00A39877 /* CompositeSymbolRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CompositeSymbolRecognizer.m; path = RecognizeSymbol/SymbolsRecognizer/CompositeSymbolRecognizer.m; sourceTree = SOURCE_ROOT; };
+		76A516C81FD1809B00A39877 /* NSArray+Signature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Signature.m"; path = "RecognizeSymbol/SymbolsRecognizer/NSArray+Signature.m"; sourceTree = SOURCE_ROOT; };
+		76A516C91FD1809B00A39877 /* GapInvariant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GapInvariant.h; path = RecognizeSymbol/SymbolsRecognizer/GapInvariant.h; sourceTree = SOURCE_ROOT; };
+		76A516CA1FD1809B00A39877 /* NSString+LineReading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+LineReading.h"; path = "RecognizeSymbol/SymbolsRecognizer/NSString+LineReading.h"; sourceTree = SOURCE_ROOT; };
+		76A516CB1FD1809B00A39877 /* LineByLineInvariant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LineByLineInvariant.h; path = RecognizeSymbol/SymbolsRecognizer/LineByLineInvariant.h; sourceTree = SOURCE_ROOT; };
+		76A516D11FD181D100A39877 /* testb.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testb.txt; sourceTree = "<group>"; };
+		76DAF8B51FD186B4004BDB73 /* testa.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testa.txt; sourceTree = "<group>"; };
+		76DAF8B71FD1875E004BDB73 /* testc2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = testc2.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76A516931FD1804100A39877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A516AB1FD1804100A39877 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		76A5168D1FD1804100A39877 = {
+			isa = PBXGroup;
+			children = (
+				76A516981FD1804100A39877 /* RecognizeSymbol */,
+				76A516B11FD1804100A39877 /* RecognizeSymbolTests */,
+				76A516971FD1804100A39877 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		76A516971FD1804100A39877 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76A516961FD1804100A39877 /* RecognizeSymbol.app */,
+				76A516AE1FD1804100A39877 /* RecognizeSymbolTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76A516981FD1804100A39877 /* RecognizeSymbol */ = {
+			isa = PBXGroup;
+			children = (
+				76A516BF1FD1808400A39877 /* SymbolsRecognizer */,
+				76A516991FD1804100A39877 /* AppDelegate.h */,
+				76A5169A1FD1804100A39877 /* AppDelegate.m */,
+				76A5169C1FD1804100A39877 /* ViewController.h */,
+				76A5169D1FD1804100A39877 /* ViewController.m */,
+				76A5169F1FD1804100A39877 /* Main.storyboard */,
+				76A516A21FD1804100A39877 /* Assets.xcassets */,
+				76A516A41FD1804100A39877 /* LaunchScreen.storyboard */,
+				76A516A71FD1804100A39877 /* Info.plist */,
+				76A516A81FD1804100A39877 /* main.m */,
+			);
+			path = RecognizeSymbol;
+			sourceTree = "<group>";
+		};
+		76A516B11FD1804100A39877 /* RecognizeSymbolTests */ = {
+			isa = PBXGroup;
+			children = (
+				76DAF8B71FD1875E004BDB73 /* testc2.txt */,
+				76DAF8B51FD186B4004BDB73 /* testa.txt */,
+				76A516D11FD181D100A39877 /* testb.txt */,
+				76A516B21FD1804100A39877 /* RecognizeSymbolTests.m */,
+				76A516B41FD1804100A39877 /* Info.plist */,
+			);
+			path = RecognizeSymbolTests;
+			sourceTree = "<group>";
+		};
+		76A516BF1FD1808400A39877 /* SymbolsRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				76A516C11FD1809A00A39877 /* CompositeSymbolRecognizer.h */,
+				76A516C71FD1809B00A39877 /* CompositeSymbolRecognizer.m */,
+				76A516C91FD1809B00A39877 /* GapInvariant.h */,
+				76A516C21FD1809A00A39877 /* GapInvariant.m */,
+				76A516C31FD1809A00A39877 /* Invariant.h */,
+				76A516CB1FD1809B00A39877 /* LineByLineInvariant.h */,
+				76A516C41FD1809B00A39877 /* LineByLineInvariant.m */,
+				76A516C01FD1809A00A39877 /* NSArray+Signature.h */,
+				76A516C81FD1809B00A39877 /* NSArray+Signature.m */,
+				76A516CA1FD1809B00A39877 /* NSString+LineReading.h */,
+				76A516C61FD1809B00A39877 /* NSString+LineReading.m */,
+				76A516C51FD1809B00A39877 /* SymbolRecognizer.h */,
+			);
+			name = SymbolsRecognizer;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76A516951FD1804100A39877 /* RecognizeSymbol */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A516B71FD1804100A39877 /* Build configuration list for PBXNativeTarget "RecognizeSymbol" */;
+			buildPhases = (
+				76A516921FD1804100A39877 /* Sources */,
+				76A516931FD1804100A39877 /* Frameworks */,
+				76A516941FD1804100A39877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RecognizeSymbol;
+			productName = RecognizeSymbol;
+			productReference = 76A516961FD1804100A39877 /* RecognizeSymbol.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76A516AD1FD1804100A39877 /* RecognizeSymbolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76A516BA1FD1804100A39877 /* Build configuration list for PBXNativeTarget "RecognizeSymbolTests" */;
+			buildPhases = (
+				76A516AA1FD1804100A39877 /* Sources */,
+				76A516AB1FD1804100A39877 /* Frameworks */,
+				76A516AC1FD1804100A39877 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76A516B01FD1804100A39877 /* PBXTargetDependency */,
+			);
+			name = RecognizeSymbolTests;
+			productName = RecognizeSymbolTests;
+			productReference = 76A516AE1FD1804100A39877 /* RecognizeSymbolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76A5168E1FD1804100A39877 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Pavel Katunin";
+				TargetAttributes = {
+					76A516951FD1804100A39877 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					76A516AD1FD1804100A39877 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 76A516951FD1804100A39877;
+					};
+				};
+			};
+			buildConfigurationList = 76A516911FD1804100A39877 /* Build configuration list for PBXProject "RecognizeSymbol" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76A5168D1FD1804100A39877;
+			productRefGroup = 76A516971FD1804100A39877 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76A516951FD1804100A39877 /* RecognizeSymbol */,
+				76A516AD1FD1804100A39877 /* RecognizeSymbolTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76A516941FD1804100A39877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A516A61FD1804100A39877 /* LaunchScreen.storyboard in Resources */,
+				76A516A31FD1804100A39877 /* Assets.xcassets in Resources */,
+				76A516A11FD1804100A39877 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A516AC1FD1804100A39877 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DAF8B61FD186B4004BDB73 /* testa.txt in Resources */,
+				76A516D21FD181D100A39877 /* testb.txt in Resources */,
+				76DAF8B81FD1875E004BDB73 /* testc2.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76A516921FD1804100A39877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A516CF1FD1809B00A39877 /* CompositeSymbolRecognizer.m in Sources */,
+				76A5169E1FD1804100A39877 /* ViewController.m in Sources */,
+				76A516CC1FD1809B00A39877 /* GapInvariant.m in Sources */,
+				76A516D01FD1809B00A39877 /* NSArray+Signature.m in Sources */,
+				76A516A91FD1804100A39877 /* main.m in Sources */,
+				76A5169B1FD1804100A39877 /* AppDelegate.m in Sources */,
+				76A516CE1FD1809B00A39877 /* NSString+LineReading.m in Sources */,
+				76A516CD1FD1809B00A39877 /* LineByLineInvariant.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76A516AA1FD1804100A39877 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76A516B31FD1804100A39877 /* RecognizeSymbolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76A516B01FD1804100A39877 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76A516951FD1804100A39877 /* RecognizeSymbol */;
+			targetProxy = 76A516AF1FD1804100A39877 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76A5169F1FD1804100A39877 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A516A01FD1804100A39877 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76A516A41FD1804100A39877 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76A516A51FD1804100A39877 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76A516B51FD1804100A39877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76A516B61FD1804100A39877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76A516B81FD1804100A39877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3QJ28VXP6;
+				INFOPLIST_FILE = RecognizeSymbol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PavelKatunin.RecognizeSymbol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		76A516B91FD1804100A39877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3QJ28VXP6;
+				INFOPLIST_FILE = RecognizeSymbol/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PavelKatunin.RecognizeSymbol;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		76A516BB1FD1804100A39877 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3QJ28VXP6;
+				INFOPLIST_FILE = RecognizeSymbolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PavelKatunin.RecognizeSymbolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecognizeSymbol.app/RecognizeSymbol";
+			};
+			name = Debug;
+		};
+		76A516BC1FD1804100A39877 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T3QJ28VXP6;
+				INFOPLIST_FILE = RecognizeSymbolTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PavelKatunin.RecognizeSymbolTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RecognizeSymbol.app/RecognizeSymbol";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76A516911FD1804100A39877 /* Build configuration list for PBXProject "RecognizeSymbol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A516B51FD1804100A39877 /* Debug */,
+				76A516B61FD1804100A39877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A516B71FD1804100A39877 /* Build configuration list for PBXNativeTarget "RecognizeSymbol" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A516B81FD1804100A39877 /* Debug */,
+				76A516B91FD1804100A39877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76A516BA1FD1804100A39877 /* Build configuration list for PBXNativeTarget "RecognizeSymbolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76A516BB1FD1804100A39877 /* Debug */,
+				76A516BC1FD1804100A39877 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76A5168E1FD1804100A39877 /* Project object */;
+}
